@@ -1,0 +1,12 @@
+{
+  "name": "gatsby-theme-workspaces",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "author": "Sona Praneeth Akula <sonapraneeth.akula@gmail.com> (@sonapraneeth-a)",
+  "license": "MIT",
+  "workspaces": [
+    "gatsby-theme-simple-bio",
+    "demo"
+  ]
+}
