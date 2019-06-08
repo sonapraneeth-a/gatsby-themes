@@ -1,0 +1,8 @@
+[submodule "gatsby-theme-simple-bio"]
+	path = gatsby-theme-simple-bio
+	url = https://github.com/sonapraneeth-a/gatsby-themes.git
+	branch = master--theme--gatsby-theme-simple-bio
+[submodule "demo"]
+	path = demo
+	url = https://github.com/sonapraneeth-a/gatsby-themes.git
+	branch = master--demo--gatsby-theme-simple-bio
