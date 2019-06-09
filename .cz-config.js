@@ -35,7 +35,12 @@ module.exports = {
     { value: 'WIP', name: 'WIP:      Work in progress' },
   ],
 
-  scopes: [{ name: 'javascript' }, { name: 'html' }, { name: 'sass' }],
+  scopes: [
+    { name: 'javascript' },
+    { name: 'html' },
+    { name: 'sass' },
+    { name: 'config' },
+  ],
 
   allowTicketNumber: false,
   isTicketNumberRequired: false,
@@ -71,11 +76,11 @@ module.exports = {
   allowCustomScopes: true,
   allowBreakingChanges: ['feat', 'fix'],
   // skip any questions you want
-  skipQuestions: ['body'],
+  // skipQuestions: ['body'],
 
   // limit subject length
   subjectLimit: 100,
   // breaklineChar: '|', // It is supported for fields body and footer.
-  // footerPrefix : 'ISSUES CLOSED:'
+  footerPrefix: 'ISSUES CLOSED:',
   // askForBreakingChangeFirst : true, // default is false
 };
