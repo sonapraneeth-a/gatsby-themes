@@ -31,5 +31,9 @@
     "commitizen": {
       "path": "../node_modules/cz-customizable"
     }
+  },
+  "dependencies": {
+    "gatsby-plugin-react-helmet": "^3.1.0",
+    "react-helmet": "^5.2.1"
   }
 }
